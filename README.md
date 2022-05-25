@@ -1,8 +1,8 @@
 # Project #2: Extract, Transform, and Load
-In this project, we are joining two datasets related to COVID-19 to take a closer look at the US states, their populations, and their case/death counts during the pandemic in 2020. We also added in a new column about the percentages of cases and dates for every state to compare numbers between each state.
+In this project, we are joining two datasets related to COVID-19 to take a closer look at the US states, their populations, and their case/death counts during the pandemic in 2020. We also added in two new columns about the percentages of cases and dates for every state to compare numbers between each state.
 
 # Methods Used
-Cleaning, merging, joining data
+Cleaning, joining data, adding columns
 
 # Technologies
 Pandas, PostgreSQL
