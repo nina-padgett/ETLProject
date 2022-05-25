@@ -19,4 +19,5 @@ US County Populations Dataset: uscensuspop2020.csv
 Code was tested using Python 3.8. The environment also needs pandas and sqlalchemy. The environment was setup as follows:
 
 import pandas as pd
+
 from sqlalchemy import create_engine
