@@ -1,3 +1,5 @@
 COVID_19_Activity dataset can be accessed from the link below.
 
 https://query.data.world/s/ynb7kpmvt5dw26vogf5ozoqjqpyhb2
+
+The dataset is large and it can't be uploaded directly as csv file.
