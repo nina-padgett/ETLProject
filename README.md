@@ -16,9 +16,11 @@ Indranil Roy, Jenna Jorstad, Nina Padgett, and Ying Sun
 
 # Data Sources
 COVID-19 Dataset of Case Counts and Death Counts imported directly from website: https://query.data.world/s/vk5mf4hyssjgd5iqtolztihap6xjpi
+Size: 280mb
 
 US County Populations Dataset: NST-EST2021-POP.csv
 location: datasets folder
+Size: 1kb
 
 # Installation
 Code was tested using Python 3.8. The environment also needs pandas and sqlalchemy. The environment was setup as follows:
