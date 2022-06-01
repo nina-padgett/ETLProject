@@ -1,7 +1,7 @@
 # Project #2: Extract, Transform, and Load 
-In order to have a fair comparison between the US States for COVID-19 infections and deaths, we joined two datasets related to COVID-19 and census data to create a relational database. We took a closer look at the US states, their populations, and their case/death counts during the pandemic. The resulting dataset has two new columns about the percentages of cases and deaths for every state to compare death counts and case counts between each state.
+In order to have a fair comparison between the US States for COVID-19 infections and deaths, we joined two datasets related to COVID-19 and census data to create a final database. We took a closer look at the US states, their populations, and their case/death counts during the pandemic. The resulting dataset has two new columns about the percentages of cases and deaths for every state to compare death counts and case counts between each state.
 
-Adding in the two columns of Percent Cases and Percent Deaths gave us better insight of how different states were affected during the pandemic. We believe the percentage comparison gives a clearer picture of the number of deaths in comparison to the case counts in more populated /larger states versus less populated states/smaller states.
+Adding in the two columns of Percent Cases and Percent Deaths gave us better insight of how different states were affected during the pandemic. We believe the percentage comparison gives a clearer picture of case counts and death counts in comparison to the total case counts and total death counts in more populated /larger states versus less populated states/smaller states.
 
 # Methods Used
 Extract: read csv files
