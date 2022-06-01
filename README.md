@@ -1,11 +1,15 @@
 # Project #2: Extract, Transform, and Load
-In order to have a fair comparison between the different states for COVID-19 infections and deaths, we joined two datasets related to COVID-19 to take a closer look at the US states, their populations, and their case/death counts during the pandemic. We also added in two new columns about the percentages of cases and dates for every state to compare numbers between each state.
+In order to have a fair comparison between the US States for COVID-19 infections and deaths, we joined two datasets related to COVID-19 and census data to create a relational database. We took a closer look at the US states, their populations, and their case/death counts during the pandemic. The resulting dataset has two new columns about the percentages of cases and deaths for every state to compare death counts and case counts between each state.
+
+Adding in the two columns of Percent Cases and Percent Deaths gave us better insight of how different states were affected during the pandemic. We believe the percentage comparison gives a clearer picture of the number of deaths in comparison to the case counts in more populated /larger states versus less populated states/smaller states.
 
 # Methods Used
-Cleaning, joining data, adding columns
+Extract: read csv files
+Transform: clean datasets, join datasets, add new columns
+Load: load dataframe to database
 
 # Technologies
-Pandas, PostgreSQL
+Pandas, PostgreSQL, Jupyter Notebook
 
 # Contributors
 Indranil Roy, Jenna Jorstad, Nina Padgett, and Ying Sun
@@ -13,7 +17,8 @@ Indranil Roy, Jenna Jorstad, Nina Padgett, and Ying Sun
 # Data Sources
 COVID-19 Dataset of Case Counts and Death Counts imported directly from website: https://query.data.world/s/vk5mf4hyssjgd5iqtolztihap6xjpi
 
-US County Populations Dataset: uscensuspop2020.csv
+US County Populations Dataset: NST-EST2021-POP.csv
+location: datasets folder
 
 # Installation
 Code was tested using Python 3.8. The environment also needs pandas and sqlalchemy. The environment was setup as follows:
